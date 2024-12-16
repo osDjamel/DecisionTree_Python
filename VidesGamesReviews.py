@@ -12,7 +12,7 @@ print(data_reviews.head())
 
 # Préparer les données pour l'arbre de décision
 # Sélectionner des colonnes pertinentes pour le modèle
-X = data_reviews[['Price', 'User Rating', 'Multiplayer']]  # Utiliser des colonnes numériques ou catégoriques simples
+X = data_reviews[['Price', 'User Rating', 'Multiplayer']] 
 y = data_reviews['Multiplayer']  # Cible
 
 # Encodage des variables catégoriques dans X
